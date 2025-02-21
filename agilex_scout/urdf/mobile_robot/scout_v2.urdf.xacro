@@ -81,7 +81,7 @@
 		<xacro:include filename="$(find agilex_scout)/urdf/mobile_robot/scout_wheel_type2.xacro" />
 		<!-- wheel labeled from 0 to 3, conter-clockwise, starting from front right wheel -->
 		<!-- motor 1 and 2 (left side) are mechanically installed in a reversed direction -->
-		<xacro:scout_wheel_type1 wheel_prefix="front_right" x="${wheelbase/2}" y="${-track/2}"
+		<!-- <xacro:scout_wheel_type1 wheel_prefix="front_right" x="${wheelbase/2}" y="${-track/2}"
 			z="${wheel_vertical_offset}" phi="0" />
 
 		<xacro:scout_wheel_type2 wheel_prefix="front_left" x="${wheelbase/2}" y="${track/2}"
@@ -91,7 +91,7 @@
 			z="${wheel_vertical_offset}" phi="0" />
 
 		<xacro:scout_wheel_type2 wheel_prefix="rear_right" x="${-wheelbase/2}" y="${-track/2}"
-			z="${wheel_vertical_offset}" phi="0" />
+			z="${wheel_vertical_offset}" phi="0" /> -->
 
 
 		<link name="front_mount" />
